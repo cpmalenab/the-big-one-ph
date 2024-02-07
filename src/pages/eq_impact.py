@@ -18,10 +18,10 @@ desc = "A potential Magnitude 7.2 earthquake along the West Valley Fault System 
 desc_2 = "For disaster mitigation priorities, PHIVOLCS stated that the normalized proportional damage (per square km) is a better indicator of regions with the highest consequence regarding the number of people affected. Las Pinas, Pasay, and Caloocan are the top candidates for prioritizing emergency response and mitigation programs. The approach for disaster management response in the graphs is appropriate for residential areas only, and engineers should evaluate the damage to critical facilities (airports, hospitals, schools, etc) on a case-by-case basis."
 
 #Import data
-earthquake_impact_total_gdf = gpd.read_file('data/analytics/earthquake_impact_total_gdf.geojson',
+earthquake_impact_total_gdf = gpd.read_file('../data/analytics/earthquake_impact_total_gdf.geojson',
                                             driver='GeoJSON')
-earthquake_impact_total = pd.read_csv('data/analytics/earthquake_impact_total.csv')
-earthquake_impact = pd.read_csv('data/analytics/earthquake_impact.csv')
+earthquake_impact_total = pd.read_csv('../data/analytics/earthquake_impact_total.csv')
+earthquake_impact = pd.read_csv('../data/analytics/earthquake_impact.csv')
 
 #Set index for choropleth maps
 earthquake_impact_total_gdf = earthquake_impact_total_gdf.set_index('municipality')

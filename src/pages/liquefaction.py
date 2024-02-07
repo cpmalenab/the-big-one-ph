@@ -21,11 +21,11 @@ desc = "Soil liquefaction is a geologic hazard that results when soil loses its 
 desc_2 = "Out of 155 hospitals, 74 are lying in liquefiable areas, with 11,919 beds at risk of not being accessible to the population. "
 
 #import files
-liquefaction_map = gpd.read_file("data/analytics/liquefaction_map.geojson", driver='GeoJSON')
-liqf_roadways_gdf = gpd.read_file("data/analytics/liqf_roadways_gdf.geojson", driver='GeoJSON')
-ncr_hosp = gpd.read_file('data/analytics/ncr_hosp.geojson', driver='GeoJSON')
-liqf_potential_hosp =pd.read_csv("data/analytics/liquefaction_potential_hospital.csv")
-liqf_potential_capacity = pd.read_csv("data/analytics/liquefaction_potential_capacity.csv")
+liquefaction_map = gpd.read_file("../data/analytics/liquefaction_map.geojson", driver='GeoJSON')
+liqf_roadways_gdf = gpd.read_file("../data/analytics/liqf_roadways_gdf.geojson", driver='GeoJSON')
+ncr_hosp = gpd.read_file('../data/analytics/ncr_hosp.geojson', driver='GeoJSON')
+liqf_potential_hosp =pd.read_csv("../data/analytics/liquefaction_potential_hospital.csv")
+liqf_potential_capacity = pd.read_csv("../data/analytics/liquefaction_potential_capacity.csv")
 
 #Set api token
 px.set_mapbox_access_token(open("assets/.mapbox_token").read())

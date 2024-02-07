@@ -23,9 +23,9 @@ dash.register_page(__name__,
 desc = "The current population of NCR is 13,484,462, accounting for about 12.37% of the Philippine population based on the 2020 Census of Population and Housing (2020 CPH). The population is higher by 607,209 from the 2015 census, with Quezon City, Manila, and Caloocan having the highest number of inhabitants. The LGUs constantly remind barangays near the WVF to move out of the fault line as they risk receiving catastrophic damages."
 desc_2 = "Access to health facilities is crucial in a post-earthquake situation. The total number of hospitals in Metro Manila is 155, divided into three levels according to their functional capacity. Level 1 is general hospitals, including operating and recovery rooms; Level 2 has available ICU and respiratory services, and Level 3 has physical rehabilitation units and a blood bank. The surge of critical care demand after an earthquake will be a significant challenge to our healthcare system, in addition to continuing their baseline services to their current patients."
 
-ncr_hosp = gpd.read_file('data/analytics/ncr_hosp.geojson',driver='GeoJSON')
-fault_lines_ph = gpd.read_file('data/analytics/fault_lines_ph.geojson', driver='GeoJSON')
-population_ncr = gpd.read_file('data/analytics/ncr_boundary_pop.geojson', driver='GeoJSON')
+ncr_hosp = gpd.read_file('../data/analytics/ncr_hosp.geojson',driver='GeoJSON')
+fault_lines_ph = gpd.read_file('../data/analytics/fault_lines_ph.geojson', driver='GeoJSON')
+population_ncr = gpd.read_file('../data/analytics/ncr_boundary_pop.geojson', driver='GeoJSON')
 
 hosp_data = ncr_hosp[['facility_name','service_capability','bed_capacity']]
 hosp_data['facility_name'] = hosp_data['facility_name'].str.title()

@@ -21,9 +21,9 @@ desc = "Located along the “Pacific Ring of Fire,” the Philippines experience
 desc_2 = "The country has at least 175 active faults and the West Valley Fault (WVF), spanning Bulacan, Rizal, Metro Manila, Cavite, and Laguna, is projected to trigger an earthquake exceeding 7.2 in magnitude, commonly called \"The Big One\". PHIVOLCS claims that the WVF has a movement interval of 400 to 600 years, with the last movement recorded in 1658. Thus, it is impending that \"The Big One\" can happen in our generation."
 
 #Import files
-earthquake_history = pd.read_csv("data/analytics/earthquake_data.csv", parse_dates=['time'])
-fault_lines_ph = gpd.read_file("data/analytics/fault_lines_ph.geojson", driver="GeoJSON")
-eq_rate_df = pd.read_csv("data/analytics/eq_rate_df.csv")
+earthquake_history = pd.read_csv("../data/analytics/earthquake_data.csv", parse_dates=['time'])
+fault_lines_ph = gpd.read_file("../data/analytics/fault_lines_ph.geojson", driver="GeoJSON")
+eq_rate_df = pd.read_csv("../data/analytics/eq_rate_df.csv")
 
 #Set api token
 px.set_mapbox_access_token(open("assets/.mapbox_token").read())

@@ -7,6 +7,7 @@ app = dash.Dash(__name__,
                 external_stylesheets=[dbc.themes.BOOTSTRAP, dbc.icons.FONT_AWESOME],
                 assets_folder='assets',
                 suppress_callback_exceptions=True)
+server = app.server
 
 from assets.nav import sidebar
 

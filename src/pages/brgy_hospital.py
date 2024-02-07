@@ -20,10 +20,10 @@ desc_2 = "With this in mind, this page functions as a resource to identify each 
 
 
 #import data
-ncr_hosp = gpd.read_file("data/analytics/ncr_hosp.geojson", driver="GeoJSON")
-liquefaction_map = gpd.read_file("data/analytics/liquefaction_map.geojson", driver="GeoJSON")
-travel_matrix = pd.read_csv("data/analytics/travel_matrix.csv")
-ncr_boundary_pop = gpd.read_file("data/analytics/ncr_boundary_pop.geojson", driver="GeoJSON")
+ncr_hosp = gpd.read_file("../data/analytics/ncr_hosp.geojson", driver="GeoJSON")
+liquefaction_map = gpd.read_file("../data/analytics/liquefaction_map.geojson", driver="GeoJSON")
+travel_matrix = pd.read_csv("../data/analytics/travel_matrix.csv")
+ncr_boundary_pop = gpd.read_file("../data/analytics/ncr_boundary_pop.geojson", driver="GeoJSON")
 
 #Set api token
 px.set_mapbox_access_token(open("assets/.mapbox_token").read())

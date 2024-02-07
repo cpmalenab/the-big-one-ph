@@ -21,11 +21,11 @@ desc_2 = "Using RAAM (lower score is better), we can see that on the onset (i.e.
 desc_3 = "Through a comparison of accessibility scores considering liquefaction risk, we identified the top 20 barangays most significantly affected in terms of healthcare access. These particular barangays are likely to face heightened challenges in accessing the healthcare system if the liquefaction potential becomes a reality."
 desc_4 = "In essence, the accessibility scores for each barangay condense three variables (population count, hospital bed capacity, and travel time) into a singular value. This value serves as a tool to pinpoint which barangays would experience the lowest healthcare accessibility in the event of \"The Big One.\""
 
-ncr_hosp = gpd.read_file("data/analytics/ncr_hosp.geojson", driver="GeoJSON")
-liquefaction_map = gpd.read_file("data/analytics/liquefaction_map.geojson",
+ncr_hosp = gpd.read_file("../data/analytics/ncr_hosp.geojson", driver="GeoJSON")
+liquefaction_map = gpd.read_file("../data/analytics/liquefaction_map.geojson",
                                  driver="GeoJSON")
-travel_matrix = pd.read_csv("data/analytics/travel_matrix.csv")
-ncr_boundary_pop = gpd.read_file("data/analytics/ncr_boundary_pop.geojson", driver="GeoJSON")
+travel_matrix = pd.read_csv("../data/analytics/travel_matrix.csv")
+ncr_boundary_pop = gpd.read_file("../data/analytics/ncr_boundary_pop.geojson", driver="GeoJSON")
 
 #Set api token
 px.set_mapbox_access_token(open("assets/.mapbox_token").read())
