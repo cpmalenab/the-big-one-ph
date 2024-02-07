@@ -8,8 +8,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 import dash_bootstrap_components as dbc
 import json
-
-
+import os
 
 #Register dash page
 dash.register_page(__name__,
@@ -31,8 +30,9 @@ hosp_data = ncr_hosp[['facility_name','service_capability','bed_capacity']]
 hosp_data['facility_name'] = hosp_data['facility_name'].str.title()
 
 #Set api token
-px.set_mapbox_access_token(open("assets/.mapbox_token").read())
-token = open("assets/.mapbox_token").read()
+mapbox_token = os.environ.get('MAPBOX_TOKEN')
+px.set_mapbox_access_token(mapbox_token)
+token = mapbox_token
 
 #Fault Line Plot
 lats = []

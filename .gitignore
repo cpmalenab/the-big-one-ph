@@ -85,5 +85,6 @@ target/
 # Mypy cache
 .mypy_cache/
 
-#Mapbox token
+#Mapbox Token
 .mapbox_token
+

@@ -5,6 +5,7 @@ import geopandas as gpd
 import plotly.express as px
 import dash_bootstrap_components as dbc
 import json
+import os
 
 #Register dash page
 dash.register_page(__name__,
@@ -27,7 +28,9 @@ earthquake_impact = pd.read_csv('../data/analytics/earthquake_impact.csv')
 earthquake_impact_total_gdf = earthquake_impact_total_gdf.set_index('municipality')
 
 #Set api token
-px.set_mapbox_access_token(open("assets/.mapbox_token").read())
+mapbox_token = os.environ.get('MAPBOX_TOKEN')
+px.set_mapbox_access_token(mapbox_token)
+
 
 #Dash App Layout
 layout = dbc.Container([

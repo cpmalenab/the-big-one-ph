@@ -1,3 +1,4 @@
+import os
 import dash
 from dash import Dash, html, dcc, Input, Output, ctx, callback
 import geopandas as gpd
@@ -8,6 +9,7 @@ import plotly.graph_objects as go
 import shapely.geometry
 import dash_bootstrap_components as dbc
 import json
+
 
 #Register dash page
 dash.register_page(__name__,
@@ -26,8 +28,9 @@ fault_lines_ph = gpd.read_file("../data/analytics/fault_lines_ph.geojson", drive
 eq_rate_df = pd.read_csv("../data/analytics/eq_rate_df.csv")
 
 #Set api token
-px.set_mapbox_access_token(open("assets/.mapbox_token").read())
-token = open("assets/.mapbox_token").read()
+mapbox_token = os.environ.get('MAPBOX_TOKEN')
+px.set_mapbox_access_token(mapbox_token)
+token = mapbox_token
 
 #earthquake rate
 rate_fig = px.bar(eq_rate_df,
