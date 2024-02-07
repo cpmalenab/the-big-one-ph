@@ -1,0 +1,103 @@
+municipality,impact_type,rate,value
+Muntinlupa,Building Damage,normalized,269.39
+Pateros,Building Damage,normalized,569.45
+Paranaque,Building Damage,normalized,638.61
+Navotas,Building Damage,normalized,677.88
+Makati,Building Damage,normalized,735.5
+Marikina,Building Damage,normalized,772.03
+Mandaluyong,Building Damage,normalized,956.91
+Valenzuela,Building Damage,normalized,1010.5
+Taguig,Building Damage,normalized,1092.86
+San Juan,Building Damage,normalized,1479.68
+Pasig,Building Damage,normalized,1893.27
+Manila,Building Damage,normalized,1978.38
+Malabon,Building Damage,normalized,2433.18
+Quezon,Building Damage,normalized,7984.84
+Caloocan,Building Damage,normalized,13075.58
+Pasay,Building Damage,normalized,17515.53
+Las Pinas,Building Damage,normalized,84800.22
+Caloocan,Casualties,normalized,425031.06
+Las Pinas,Casualties,normalized,3285408.79
+Makati,Casualties,normalized,20905.91
+Malabon,Casualties,normalized,54984.880000000005
+Mandaluyong,Casualties,normalized,24762.56
+Manila,Casualties,normalized,50196.99
+Marikina,Casualties,normalized,18157.07
+Muntinlupa,Casualties,normalized,5744.37
+Navotas,Casualties,normalized,31657.56
+Paranaque,Casualties,normalized,9476.42
+Pasay,Casualties,normalized,550398.67
+Pasig,Casualties,normalized,53554.67
+Pateros,Casualties,normalized,22129.21
+Quezon,Casualties,normalized,124694.51
+San Juan,Casualties,normalized,23229.39
+Taguig,Casualties,normalized,46324.44
+Valenzuela,Casualties,normalized,16275.07
+Caloocan,Economic Loss,normalized,1174491.09
+Las Pinas,Economic Loss,normalized,8141569.65
+Makati,Economic Loss,normalized,49820.16
+Malabon,Economic Loss,normalized,267014.95
+Mandaluyong,Economic Loss,normalized,62002.21
+Manila,Economic Loss,normalized,170283.22
+Marikina,Economic Loss,normalized,65143.79
+Muntinlupa,Economic Loss,normalized,22627.17
+Navotas,Economic Loss,normalized,45714.86
+Paranaque,Economic Loss,normalized,49236.45
+Pasay,Economic Loss,normalized,1578074.34
+Pasig,Economic Loss,normalized,190826.5
+Pateros,Economic Loss,normalized,43075.54
+Quezon,Economic Loss,normalized,591784.76
+San Juan,Economic Loss,normalized,132508.64
+Taguig,Economic Loss,normalized,79327.67
+Valenzuela,Economic Loss,normalized,68131.81
+Caloocan,Building Damage,total,18498145.0
+Las Pinas,Building Damage,total,10752113.0
+Makati,Building Damage,total,17654117.0
+Malabon,Building Damage,total,6347325.0
+Mandaluyong,Building Damage,total,7679264.0
+Manila,Building Damage,total,35295501.0
+Marikina,Building Damage,total,10870279.0
+Muntinlupa,Building Damage,total,11956097.0
+Navotas,Building Damage,total,2945300.0
+Paranaque,Building Damage,total,17929952.0
+Pasay,Building Damage,total,9136910.0
+Pasig,Building Damage,total,18857172.0
+Pateros,Building Damage,total,1004033.0
+Quezon,Building Damage,total,60313374.0
+San Juan,Building Damage,total,3842028.0
+Taguig,Building Damage,total,13815491.0
+Valenzuela,Building Damage,total,14171213.0
+Caloocan,Casualties,total,57219.0
+Las Pinas,Casualties,total,89964.0
+Makati,Casualties,total,26920.0
+Malabon,Casualties,total,22164.0
+Mandaluyong,Casualties,total,14648.0
+Manila,Casualties,total,14481.0
+Marikina,Casualties,total,25914.0
+Muntinlupa,Casualties,total,22656.0
+Navotas,Casualties,total,13171.0
+Paranaque,Casualties,total,25893.0
+Pasay,Casualties,total,18300.0
+Pasig,Casualties,total,37079.0
+Pateros,Casualties,total,3937.0
+Quezon,Casualties,total,102176.0
+San Juan,Casualties,total,5124.0
+Taguig,Casualties,total,41613.0
+Valenzuela,Casualties,total,21691.0
+Caloocan,Economic Loss,total,119027.0
+Las Pinas,Economic Loss,total,400031.0
+Makati,Economic Loss,total,70436.0
+Malabon,Economic Loss,total,234339.0
+Mandaluyong,Economic Loss,total,41751.0
+Manila,Economic Loss,total,76352.0
+Marikina,Economic Loss,total,87926.0
+Muntinlupa,Economic Loss,total,101281.0
+Navotas,Economic Loss,total,20429.0
+Paranaque,Economic Loss,total,131392.0
+Pasay,Economic Loss,total,100406.0
+Pasig,Economic Loss,total,190686.0
+Pateros,Economic Loss,total,7263.0
+Quezon,Economic Loss,total,449214.0
+San Juan,Economic Loss,total,31760.0
+Taguig,Economic Loss,total,118643.0
+Valenzuela,Economic Loss,total,87908.0

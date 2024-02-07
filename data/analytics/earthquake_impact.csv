@@ -1,0 +1,341 @@
+,municipality,impact_type,state,rate,value
+0,Caloocan,Building Damage,Slight Damage,normalized,1965.12
+1,Las Pinas,Building Damage,Slight Damage,normalized,9353.81
+2,Makati,Building Damage,Slight Damage,normalized,121.59
+3,Malabon,Building Damage,Slight Damage,normalized,298.16
+4,Mandaluyong,Building Damage,Slight Damage,normalized,137.88
+5,Manila,Building Damage,Slight Damage,normalized,310.29
+6,Marikina,Building Damage,Slight Damage,normalized,84.94
+7,Muntinlupa,Building Damage,Slight Damage,normalized,37.14
+8,Navotas,Building Damage,Slight Damage,normalized,90.87
+9,Paranaque,Building Damage,Slight Damage,normalized,98.6
+10,Pasay,Building Damage,Slight Damage,normalized,1788.46
+11,Pasig,Building Damage,Slight Damage,normalized,216.26
+12,Pateros,Building Damage,Slight Damage,normalized,46.61
+13,Quezon,Building Damage,Slight Damage,normalized,1426.42
+14,San Juan,Building Damage,Slight Damage,normalized,256.43
+15,Taguig,Building Damage,Slight Damage,normalized,148.77
+16,Valenzuela,Building Damage,Slight Damage,normalized,209.92
+17,Caloocan,Building Damage,Moderate Damage,normalized,3429.84
+18,Las Pinas,Building Damage,Moderate Damage,normalized,18575.63
+19,Makati,Building Damage,Moderate Damage,normalized,197.05
+20,Malabon,Building Damage,Moderate Damage,normalized,568.1
+21,Mandaluyong,Building Damage,Moderate Damage,normalized,231.76
+22,Manila,Building Damage,Moderate Damage,normalized,530.59
+23,Marikina,Building Damage,Moderate Damage,normalized,167.6
+24,Muntinlupa,Building Damage,Moderate Damage,normalized,65.25
+25,Navotas,Building Damage,Moderate Damage,normalized,160.17
+26,Paranaque,Building Damage,Moderate Damage,normalized,168.8
+27,Pasay,Building Damage,Moderate Damage,normalized,3553.0
+28,Pasig,Building Damage,Moderate Damage,normalized,397.3
+29,Pateros,Building Damage,Moderate Damage,normalized,95.88
+30,Quezon,Building Damage,Moderate Damage,normalized,2313.44
+31,San Juan,Building Damage,Moderate Damage,normalized,429.4
+32,Taguig,Building Damage,Moderate Damage,normalized,256.77
+33,Valenzuela,Building Damage,Moderate Damage,normalized,321.37
+34,Caloocan,Building Damage,Extensive Damage,normalized,3286.26
+35,Las Pinas,Building Damage,Extensive Damage,normalized,23075.2
+36,Makati,Building Damage,Extensive Damage,normalized,166.12
+37,Malabon,Building Damage,Extensive Damage,normalized,604.68
+38,Mandaluyong,Building Damage,Extensive Damage,normalized,219.27
+39,Manila,Building Damage,Extensive Damage,normalized,493.01
+40,Marikina,Building Damage,Extensive Damage,normalized,192.93
+41,Muntinlupa,Building Damage,Extensive Damage,normalized,64.39
+42,Navotas,Building Damage,Extensive Damage,normalized,160.97
+43,Paranaque,Building Damage,Extensive Damage,normalized,154.88
+44,Pasay,Building Damage,Extensive Damage,normalized,4478.41
+45,Pasig,Building Damage,Extensive Damage,normalized,453.79
+46,Pateros,Building Damage,Extensive Damage,normalized,129.03
+47,Quezon,Building Damage,Extensive Damage,normalized,1918.0
+48,San Juan,Building Damage,Extensive Damage,normalized,364.25
+49,Taguig,Building Damage,Extensive Damage,normalized,259.67
+50,Valenzuela,Building Damage,Extensive Damage,normalized,230.37
+51,Caloocan,Building Damage,Complete Damage,normalized,3903.12
+52,Las Pinas,Building Damage,Complete Damage,normalized,30139.86
+53,Makati,Building Damage,Complete Damage,normalized,221.85
+54,Malabon,Building Damage,Complete Damage,normalized,862.28
+55,Mandaluyong,Building Damage,Complete Damage,normalized,331.21
+56,Manila,Building Damage,Complete Damage,normalized,573.31
+57,Marikina,Building Damage,Complete Damage,normalized,287.42
+58,Muntinlupa,Building Damage,Complete Damage,normalized,91.56
+59,Navotas,Building Damage,Complete Damage,normalized,239.18
+60,Paranaque,Building Damage,Complete Damage,normalized,191.49
+61,Pasay,Building Damage,Complete Damage,normalized,6854.11
+62,Pasig,Building Damage,Complete Damage,normalized,736.79
+63,Pateros,Building Damage,Complete Damage,normalized,264.2
+64,Quezon,Building Damage,Complete Damage,normalized,2049.09
+65,San Juan,Building Damage,Complete Damage,normalized,384.56
+66,Taguig,Building Damage,Complete Damage,normalized,381.23
+67,Valenzuela,Building Damage,Complete Damage,normalized,218.96
+68,Caloocan,Building Damage,Complete Collapse,normalized,491.24
+69,Las Pinas,Building Damage,Complete Collapse,normalized,3655.72
+70,Makati,Building Damage,Complete Collapse,normalized,28.89
+71,Malabon,Building Damage,Complete Collapse,normalized,99.96
+72,Mandaluyong,Building Damage,Complete Collapse,normalized,36.79
+73,Manila,Building Damage,Complete Collapse,normalized,71.18
+74,Marikina,Building Damage,Complete Collapse,normalized,39.14
+75,Muntinlupa,Building Damage,Complete Collapse,normalized,11.05
+76,Navotas,Building Damage,Complete Collapse,normalized,26.69
+77,Paranaque,Building Damage,Complete Collapse,normalized,24.84
+78,Pasay,Building Damage,Complete Collapse,normalized,841.55
+79,Pasig,Building Damage,Complete Collapse,normalized,89.13
+80,Pateros,Building Damage,Complete Collapse,normalized,33.73
+81,Quezon,Building Damage,Complete Collapse,normalized,277.89
+82,San Juan,Building Damage,Complete Collapse,normalized,45.04
+83,Taguig,Building Damage,Complete Collapse,normalized,46.42
+84,Valenzuela,Building Damage,Complete Collapse,normalized,29.88
+85,Caloocan,Casualties,Slight Injuries,normalized,297251.14
+86,Las Pinas,Casualties,Slight Injuries,normalized,2283791.02
+87,Makati,Casualties,Slight Injuries,normalized,14850.86
+88,Malabon,Casualties,Slight Injuries,normalized,38129.26
+89,Mandaluyong,Casualties,Slight Injuries,normalized,17460.07
+90,Manila,Casualties,Slight Injuries,normalized,35130.56
+91,Marikina,Casualties,Slight Injuries,normalized,12660.37
+92,Muntinlupa,Casualties,Slight Injuries,normalized,4118.54
+93,Navotas,Casualties,Slight Injuries,normalized,22433.26
+94,Paranaque,Casualties,Slight Injuries,normalized,6778.37
+95,Pasay,Casualties,Slight Injuries,normalized,395332.39
+96,Pasig,Casualties,Slight Injuries,normalized,37020.27
+97,Pateros,Casualties,Slight Injuries,normalized,15391.05
+98,Quezon,Casualties,Slight Injuries,normalized,88620.92
+99,San Juan,Casualties,Slight Injuries,normalized,16564.76
+100,Taguig,Casualties,Slight Injuries,normalized,32709.19
+101,Valenzuela,Casualties,Slight Injuries,normalized,11597.55
+102,Caloocan,Casualties,Serious Injuries,normalized,88303.99
+103,Las Pinas,Casualties,Serious Injuries,normalized,690714.69
+104,Makati,Casualties,Serious Injuries,normalized,4367.86
+105,Malabon,Casualties,Serious Injuries,normalized,11652.19
+106,Mandaluyong,Casualties,Serious Injuries,normalized,5170.63
+107,Manila,Casualties,Serious Injuries,normalized,10507.52
+108,Marikina,Casualties,Serious Injuries,normalized,3865.69
+109,Muntinlupa,Casualties,Serious Injuries,normalized,1187.04
+110,Navotas,Casualties,Serious Injuries,normalized,6549.53
+111,Paranaque,Casualties,Serious Injuries,normalized,1980.05
+112,Pasay,Casualties,Serious Injuries,normalized,104264.89
+113,Pasig,Casualties,Serious Injuries,normalized,11460.46
+114,Pateros,Casualties,Serious Injuries,normalized,4690.89
+115,Quezon,Casualties,Serious Injuries,normalized,25748.54
+116,San Juan,Casualties,Serious Injuries,normalized,4813.98
+117,Taguig,Casualties,Serious Injuries,normalized,9708.47
+118,Valenzuela,Casualties,Serious Injuries,normalized,3361.36
+119,Caloocan,Casualties,Life - threatening Injuries,normalized,12644.96
+120,Las Pinas,Casualties,Life - threatening Injuries,normalized,105456.69
+121,Makati,Casualties,Life - threatening Injuries,normalized,526.19
+122,Malabon,Casualties,Life - threatening Injuries,normalized,1585.68
+123,Mandaluyong,Casualties,Life - threatening Injuries,normalized,692.91
+124,Manila,Casualties,Life - threatening Injuries,normalized,1462.13
+125,Marikina,Casualties,Life - threatening Injuries,normalized,476.36
+126,Muntinlupa,Casualties,Life - threatening Injuries,normalized,136.96
+127,Navotas,Casualties,Life - threatening Injuries,normalized,864.04
+128,Paranaque,Casualties,Life - threatening Injuries,normalized,202.94
+129,Pasay,Casualties,Life - threatening Injuries,normalized,17965.51
+130,Pasig,Casualties,Life - threatening Injuries,normalized,1645.82
+131,Pateros,Casualties,Life - threatening Injuries,normalized,679.24
+132,Quezon,Casualties,Life - threatening Injuries,normalized,2997.37
+133,San Juan,Casualties,Life - threatening Injuries,normalized,491.42
+134,Taguig,Casualties,Life - threatening Injuries,normalized,1225.5
+135,Valenzuela,Casualties,Life - threatening Injuries,normalized,395.46
+136,Caloocan,Casualties,Fatalities,normalized,26830.97
+137,Las Pinas,Casualties,Fatalities,normalized,205446.39
+138,Makati,Casualties,Fatalities,normalized,1161.0
+139,Malabon,Casualties,Fatalities,normalized,3617.75
+140,Mandaluyong,Casualties,Fatalities,normalized,1438.95
+141,Manila,Casualties,Fatalities,normalized,3096.78
+142,Marikina,Casualties,Fatalities,normalized,1154.65
+143,Muntinlupa,Casualties,Fatalities,normalized,301.83
+144,Navotas,Casualties,Fatalities,normalized,1810.73
+145,Paranaque,Casualties,Fatalities,normalized,515.06
+146,Pasay,Casualties,Fatalities,normalized,32835.88
+147,Pasig,Casualties,Fatalities,normalized,3428.12
+148,Pateros,Casualties,Fatalities,normalized,1368.03
+149,Quezon,Casualties,Fatalities,normalized,7327.68
+150,San Juan,Casualties,Fatalities,normalized,1359.23
+151,Taguig,Casualties,Fatalities,normalized,2681.28
+152,Valenzuela,Casualties,Fatalities,normalized,920.7
+153,Caloocan,Economic Loss,Financial,normalized,1174491.09
+154,Las Pinas,Economic Loss,Financial,normalized,8141569.65
+155,Makati,Economic Loss,Financial,normalized,49820.16
+156,Malabon,Economic Loss,Financial,normalized,267014.95
+157,Mandaluyong,Economic Loss,Financial,normalized,62002.21
+158,Manila,Economic Loss,Financial,normalized,170283.22
+159,Marikina,Economic Loss,Financial,normalized,65143.79
+160,Muntinlupa,Economic Loss,Financial,normalized,22627.17
+161,Navotas,Economic Loss,Financial,normalized,45714.86
+162,Paranaque,Economic Loss,Financial,normalized,49236.45
+163,Pasay,Economic Loss,Financial,normalized,1578074.34
+164,Pasig,Economic Loss,Financial,normalized,190826.5
+165,Pateros,Economic Loss,Financial,normalized,43075.54
+166,Quezon,Economic Loss,Financial,normalized,591784.76
+167,San Juan,Economic Loss,Financial,normalized,132508.64
+168,Taguig,Economic Loss,Financial,normalized,79327.67
+169,Valenzuela,Economic Loss,Financial,normalized,68131.81
+170,Caloocan,Building Damage,Slight Damage,total,3479806.0
+171,Manila,Building Damage,Slight Damage,total,4010957.0
+172,Las Pinas,Building Damage,Slight Damage,total,1898996.0
+173,Makati,Building Damage,Slight Damage,total,2239323.0
+174,Malabon,Building Damage,Slight Damage,total,1012122.0
+175,Mandaluyong,Building Damage,Slight Damage,total,1199782.0
+176,Marikina,Building Damage,Slight Damage,total,1214505.0
+177,Muntinlupa,Building Damage,Slight Damage,total,1736660.0
+178,Navotas,Building Damage,Slight Damage,total,394736.0
+179,Paranaque,Building Damage,Slight Damage,total,2897909.0
+180,Pasay,Building Damage,Slight Damage,total,1096852.0
+181,Pasig,Building Damage,Slight Damage,total,2213476.0
+182,Pateros,Building Damage,Slight Damage,total,83141.0
+183,Quezon,Building Damage,Slight Damage,total,11049945.0
+184,San Juan,Building Damage,Slight Damage,total,699746.0
+185,Taguig,Building Damage,Slight Damage,total,2014723.0
+186,Valenzuela,Building Damage,Slight Damage,total,3321678.0
+187,Caloocan,Building Damage,Moderate Damage,total,5232422.0
+188,Manila,Building Damage,Moderate Damage,total,8103927.0
+189,Las Pinas,Building Damage,Moderate Damage,total,3036596.0
+190,Makati,Building Damage,Moderate Damage,total,4291520.0
+191,Malabon,Building Damage,Moderate Damage,total,1670251.0
+192,Mandaluyong,Building Damage,Moderate Damage,total,2063208.0
+193,Marikina,Building Damage,Moderate Damage,total,2396756.0
+194,Muntinlupa,Building Damage,Moderate Damage,total,3020253.0
+195,Navotas,Building Damage,Moderate Damage,total,707097.0
+196,Paranaque,Building Damage,Moderate Damage,total,4893277.0
+197,Pasay,Building Damage,Moderate Damage,total,2129076.0
+198,Pasig,Building Damage,Moderate Damage,total,4156819.0
+199,Pateros,Building Damage,Moderate Damage,total,167761.0
+200,Quezon,Building Damage,Moderate Damage,total,17663877.0
+201,San Juan,Building Damage,Moderate Damage,total,1156132.0
+202,Taguig,Building Damage,Moderate Damage,total,3373491.0
+203,Valenzuela,Building Damage,Moderate Damage,total,4786840.0
+204,Caloocan,Building Damage,Extensive Damage,total,4087406.0
+205,Manila,Building Damage,Extensive Damage,total,9825526.0
+206,Las Pinas,Building Damage,Extensive Damage,total,2420619.0
+207,Makati,Building Damage,Extensive Damage,total,4261247.0
+208,Malabon,Building Damage,Extensive Damage,total,1477221.0
+209,Mandaluyong,Building Damage,Extensive Damage,total,1912450.0
+210,Marikina,Building Damage,Extensive Damage,total,2707179.0
+211,Muntinlupa,Building Damage,Extensive Damage,total,2877665.0
+212,Navotas,Building Damage,Extensive Damage,total,709673.0
+213,Paranaque,Building Damage,Extensive Damage,total,4307947.0
+214,Pasay,Building Damage,Extensive Damage,total,2479783.0
+215,Pasig,Building Damage,Extensive Damage,total,4708861.0
+216,Pateros,Building Damage,Extensive Damage,total,222650.0
+217,Quezon,Building Damage,Extensive Damage,total,14187637.0
+218,San Juan,Building Damage,Extensive Damage,total,951902.0
+219,Taguig,Building Damage,Extensive Damage,total,3300500.0
+220,Valenzuela,Building Damage,Extensive Damage,total,3073094.0
+221,Caloocan,Building Damage,Complete Damage,total,5072855.0
+222,Manila,Building Damage,Complete Damage,total,11969904.0
+223,Las Pinas,Building Damage,Complete Damage,total,2990543.0
+224,Makati,Building Damage,Complete Damage,total,6223243.0
+225,Malabon,Building Damage,Complete Damage,total,1960091.0
+226,Mandaluyong,Building Damage,Complete Damage,total,2249883.0
+227,Marikina,Building Damage,Complete Damage,total,4003510.0
+228,Muntinlupa,Building Damage,Complete Damage,total,3845083.0
+229,Navotas,Building Damage,Complete Damage,total,1016382.0
+230,Paranaque,Building Damage,Complete Damage,total,5149340.0
+231,Pasay,Building Damage,Complete Damage,total,3062884.0
+232,Pasig,Building Damage,Complete Damage,total,6922002.0
+233,Pateros,Building Damage,Complete Damage,total,472378.0
+234,Quezon,Building Damage,Complete Damage,total,15414694.0
+235,San Juan,Building Damage,Complete Damage,total,920029.0
+236,Taguig,Building Damage,Complete Damage,total,4594379.0
+237,Valenzuela,Building Damage,Complete Damage,total,2633301.0
+238,Caloocan,Building Damage,Complete Collapse,total,625656.0
+239,Manila,Building Damage,Complete Collapse,total,1385187.0
+240,Las Pinas,Building Damage,Complete Collapse,total,405359.0
+241,Makati,Building Damage,Complete Collapse,total,638784.0
+242,Malabon,Building Damage,Complete Collapse,total,227640.0
+243,Mandaluyong,Building Damage,Complete Collapse,total,253941.0
+244,Marikina,Building Damage,Complete Collapse,total,548329.0
+245,Muntinlupa,Building Damage,Complete Collapse,total,476436.0
+246,Navotas,Building Damage,Complete Collapse,total,117412.0
+247,Paranaque,Building Damage,Complete Collapse,total,681479.0
+248,Pasay,Building Damage,Complete Collapse,total,368315.0
+249,Pasig,Building Damage,Complete Collapse,total,856014.0
+250,Pateros,Building Damage,Complete Collapse,total,58103.0
+251,Quezon,Building Damage,Complete Collapse,total,1997221.0
+252,San Juan,Building Damage,Complete Collapse,total,114219.0
+253,Taguig,Building Damage,Complete Collapse,total,532398.0
+254,Valenzuela,Building Damage,Complete Collapse,total,356300.0
+255,Caloocan,Economic Loss,Financial,total,119027.0
+256,Las Pinas,Economic Loss,Financial,total,400031.0
+257,Makati,Economic Loss,Financial,total,70436.0
+258,Malabon,Economic Loss,Financial,total,234339.0
+259,Mandaluyong,Economic Loss,Financial,total,41751.0
+260,Manila,Economic Loss,Financial,total,76352.0
+261,Marikina,Economic Loss,Financial,total,87926.0
+262,Muntinlupa,Economic Loss,Financial,total,101281.0
+263,Navotas,Economic Loss,Financial,total,20429.0
+264,Paranaque,Economic Loss,Financial,total,131392.0
+265,Pasay,Economic Loss,Financial,total,100406.0
+266,Pasig,Economic Loss,Financial,total,190686.0
+267,Pateros,Economic Loss,Financial,total,7263.0
+268,Quezon,Economic Loss,Financial,total,449214.0
+269,San Juan,Economic Loss,Financial,total,31760.0
+270,Taguig,Economic Loss,Financial,total,118643.0
+271,Valenzuela,Economic Loss,Financial,total,87908.0
+272,Caloocan,Casualties,Slight Injuries,total,41243.0
+273,Las Pinas,Casualties,Slight Injuries,total,62895.0
+274,Makati,Casualties,Slight Injuries,total,19231.0
+275,Malabon,Casualties,Slight Injuries,total,15458.0
+276,Mandaluyong,Casualties,Slight Injuries,total,10325.0
+277,Manila,Casualties,Slight Injuries,total,10271.0
+278,Marikina,Casualties,Slight Injuries,total,18129.0
+279,Muntinlupa,Casualties,Slight Injuries,total,16259.0
+280,Navotas,Casualties,Slight Injuries,total,9344.0
+281,Paranaque,Casualties,Slight Injuries,total,18616.0
+282,Pasay,Casualties,Slight Injuries,total,12977.0
+283,Pasig,Casualties,Slight Injuries,total,25649.0
+284,Pateros,Casualties,Slight Injuries,total,2747.0
+285,Quezon,Casualties,Slight Injuries,total,73549.0
+286,San Juan,Casualties,Slight Injuries,total,3667.0
+287,Taguig,Casualties,Slight Injuries,total,29529.0
+288,Valenzuela,Casualties,Slight Injuries,total,15656.0
+289,Caloocan,Casualties,Serious Injuries,total,11567.0
+290,Las Pinas,Casualties,Serious Injuries,total,18845.0
+291,Makati,Casualties,Serious Injuries,total,5582.0
+292,Malabon,Casualties,Serious Injuries,total,4670.0
+293,Mandaluyong,Casualties,Serious Injuries,total,3046.0
+294,Manila,Casualties,Serious Injuries,total,3001.0
+295,Marikina,Casualties,Serious Injuries,total,5511.0
+296,Muntinlupa,Casualties,Serious Injuries,total,4677.0
+297,Navotas,Casualties,Serious Injuries,total,2733.0
+298,Paranaque,Casualties,Serious Injuries,total,5396.0
+299,Pasay,Casualties,Serious Injuries,total,3641.0
+300,Pasig,Casualties,Serious Injuries,total,7908.0
+301,Pateros,Casualties,Serious Injuries,total,834.0
+302,Quezon,Casualties,Serious Injuries,total,20871.0
+303,San Juan,Casualties,Serious Injuries,total,1046.0
+304,Taguig,Casualties,Serious Injuries,total,8700.0
+305,Valenzuela,Casualties,Serious Injuries,total,4398.0
+306,Caloocan,Casualties,Life - threatening Injuries,total,1295.0
+307,Las Pinas,Casualties,Life - threatening Injuries,total,2775.0
+308,Makati,Casualties,Life - threatening Injuries,total,616.0
+309,Malabon,Casualties,Life - threatening Injuries,total,609.0
+310,Mandaluyong,Casualties,Life - threatening Injuries,total,403.0
+311,Manila,Casualties,Life - threatening Injuries,total,392.0
+312,Marikina,Casualties,Life - threatening Injuries,total,657.0
+313,Muntinlupa,Casualties,Life - threatening Injuries,total,514.0
+314,Navotas,Casualties,Life - threatening Injuries,total,354.0
+315,Paranaque,Casualties,Life - threatening Injuries,total,496.0
+316,Pasay,Casualties,Life - threatening Injuries,total,565.0
+317,Pasig,Casualties,Life - threatening Injuries,total,1135.0
+318,Pateros,Casualties,Life - threatening Injuries,total,117.0
+319,Quezon,Casualties,Life - threatening Injuries,total,2232.0
+320,San Juan,Casualties,Life - threatening Injuries,total,105.0
+321,Taguig,Casualties,Life - threatening Injuries,total,1018.0
+322,Valenzuela,Casualties,Life - threatening Injuries,total,468.0
+323,Caloocan,Casualties,Fatalities,total,3114.0
+324,Las Pinas,Casualties,Fatalities,total,5449.0
+325,Makati,Casualties,Fatalities,total,1491.0
+326,Malabon,Casualties,Fatalities,total,1427.0
+327,Mandaluyong,Casualties,Fatalities,total,874.0
+328,Manila,Casualties,Fatalities,total,817.0
+329,Marikina,Casualties,Fatalities,total,1617.0
+330,Muntinlupa,Casualties,Fatalities,total,1206.0
+331,Navotas,Casualties,Fatalities,total,740.0
+332,Paranaque,Casualties,Fatalities,total,1385.0
+333,Pasay,Casualties,Fatalities,total,1117.0
+334,Pasig,Casualties,Fatalities,total,2387.0
+335,Pateros,Casualties,Fatalities,total,239.0
+336,Quezon,Casualties,Fatalities,total,5524.0
+337,San Juan,Casualties,Fatalities,total,306.0
+338,Taguig,Casualties,Fatalities,total,2366.0
+339,Valenzuela,Casualties,Fatalities,total,1169.0

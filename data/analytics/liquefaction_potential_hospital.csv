@@ -1,0 +1,10 @@
+type,service_capability,facility_name
+High Potential,Level 1,20
+High Potential,Level 2,12
+High Potential,Level 3,21
+Moderate Potential,Level 1,7
+Moderate Potential,Level 2,3
+Moderate Potential,Level 3,5
+Low Potential,Level 1,2
+Low Potential,Level 2,1
+Low Potential,Level 3,3
