@@ -27,10 +27,14 @@ earthquake_history = pd.read_csv("../data/analytics/earthquake_data.csv", parse_
 fault_lines_ph = gpd.read_file("../data/analytics/fault_lines_ph.geojson", driver="GeoJSON")
 eq_rate_df = pd.read_csv("../data/analytics/eq_rate_df.csv")
 
-#Set api token
+#Set api token using environment variables
 mapbox_token = os.environ.get('MAPBOX_TOKEN')
 px.set_mapbox_access_token(mapbox_token)
 token = mapbox_token
+
+#Set api token using .mapbox_token in assets folder
+# px.set_mapbox_access_token(open("assets/.mapbox_token").read())
+# token = open("assets/.mapbox_token").read()
 
 #earthquake rate
 rate_fig = px.bar(eq_rate_df,
@@ -112,7 +116,11 @@ layout = dbc.Container([
         ], width=3),
         dbc.Col([
             dbc.Row([
-                dcc.Graph(id='map-graph')
+                dcc.Loading(
+                    id="eq_map_loading",
+                    type="circle",
+                    children=dcc.Graph(id='map-graph')
+                )
             ]),
             dbc.Row([
                 dcc.RangeSlider(

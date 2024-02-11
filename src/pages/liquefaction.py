@@ -28,10 +28,14 @@ ncr_hosp = gpd.read_file('../data/analytics/ncr_hosp.geojson', driver='GeoJSON')
 liqf_potential_hosp =pd.read_csv("../data/analytics/liquefaction_potential_hospital.csv")
 liqf_potential_capacity = pd.read_csv("../data/analytics/liquefaction_potential_capacity.csv")
 
-#Set api token
+#Set api token using environment variables
 mapbox_token = os.environ.get('MAPBOX_TOKEN')
 px.set_mapbox_access_token(mapbox_token)
 token = mapbox_token
+
+#Set api token using .mapbox_token in assets folder
+# px.set_mapbox_access_token(open("assets/.mapbox_token").read())
+# token = open("assets/.mapbox_token").read()
 
 #Liquefaction map with hospitals
 liqf_traces = []
@@ -193,15 +197,21 @@ liquefaction_page = dbc.Container([
     dbc.Row([
         dbc.Col([
             dbc.Row([
-                dcc.Graph(figure=liqf_hosp_fig)
+                dcc.Loading(id='liqf_hosp_fig_loading', 
+                            type='circle', 
+                            children=dcc.Graph(figure=liqf_hosp_fig))
             ]),
             dbc.Row([
-                dcc.Graph(figure=liqf_bed_fig)
+                dcc.Loading(id='liqf_bed_fig_loading', 
+                            type='circle', 
+                            children=dcc.Graph(figure=liqf_bed_fig))
             ]),
         ], width=5),
         dbc.Col([
             dbc.Row([
-                dcc.Graph(figure = liquefaction_fig)
+                dcc.Loading(id='', 
+                            type='circle', 
+                            children=dcc.Graph(figure = liquefaction_fig))
             ]),
         ], width=7, className="custom-margin"),
     ])
@@ -213,7 +223,9 @@ roadways_page = html.Div([
     dbc.Container([
         dbc.Row([
             dbc.Col([
-                dcc.Graph(figure=roadways_fig)
+                dcc.Loading(id='roadways_fig_loading', 
+                            type='circle', 
+                            children=dcc.Graph(figure=roadways_fig))
             ], align='center', className="custom-margin")
         ]),
     ], fluid=True)

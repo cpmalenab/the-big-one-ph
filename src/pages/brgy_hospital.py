@@ -26,10 +26,14 @@ liquefaction_map = gpd.read_file("../data/analytics/liquefaction_map.geojson", d
 travel_matrix = pd.read_csv("../data/analytics/travel_matrix.csv")
 ncr_boundary_pop = gpd.read_file("../data/analytics/ncr_boundary_pop.geojson", driver="GeoJSON")
 
-#Set api token
+#Set api token using environment variables
 mapbox_token = os.environ.get('MAPBOX_TOKEN')
 px.set_mapbox_access_token(mapbox_token)
 token = mapbox_token
+
+#Set api token using .mapbox_token in assets folder
+# px.set_mapbox_access_token(open("assets/.mapbox_token").read())
+# token = open("assets/.mapbox_token").read()
 
 
 layout = dbc.Container([

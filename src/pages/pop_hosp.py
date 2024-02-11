@@ -29,10 +29,14 @@ population_ncr = gpd.read_file('../data/analytics/ncr_boundary_pop.geojson', dri
 hosp_data = ncr_hosp[['facility_name','service_capability','bed_capacity']]
 hosp_data['facility_name'] = hosp_data['facility_name'].str.title()
 
-#Set api token
+#Set api token using environment variables
 mapbox_token = os.environ.get('MAPBOX_TOKEN')
 px.set_mapbox_access_token(mapbox_token)
 token = mapbox_token
+
+#Set api token using .mapbox_token in assets folder
+# px.set_mapbox_access_token(open("assets/.mapbox_token").read())
+# token = open("assets/.mapbox_token").read()
 
 #Fault Line Plot
 lats = []
@@ -144,7 +148,9 @@ layout = dbc.Container([
                 ),
             ]),
             dbc.Row([
-                dcc.Graph(id='map-plot')
+                dcc.Loading(id='map_plot_loading',
+                            type='circle',
+                            children=dcc.Graph(id='map-plot'))
             ]),
         ], width=9, className="custom-margin"),
     ]),

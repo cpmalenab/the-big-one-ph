@@ -27,10 +27,12 @@ earthquake_impact = pd.read_csv('../data/analytics/earthquake_impact.csv')
 #Set index for choropleth maps
 earthquake_impact_total_gdf = earthquake_impact_total_gdf.set_index('municipality')
 
-#Set api token
+#Set api token using environment variables
 mapbox_token = os.environ.get('MAPBOX_TOKEN')
 px.set_mapbox_access_token(mapbox_token)
 
+#Set api token using .mapbox_token in assets folder
+# px.set_mapbox_access_token(open("assets/.mapbox_token").read())
 
 #Dash App Layout
 layout = dbc.Container([
@@ -74,10 +76,14 @@ layout = dbc.Container([
             html.Div([
                 dbc.Row([
                     html.H4(id="total-title"),
-                    dcc.Graph(id="bar-chart-total")
+                    dcc.Loading(id='total_title_loading',
+                                type='circle',
+                                children=dcc.Graph(id="bar-chart-total"))
                 ]),
                 dbc.Row([
-                    dbc.Col(id="damage-states"),
+                    dcc.Loading(id='damage_states_loading',
+                                type='circle',
+                                children=dbc.Col(id="damage-states")),
                 ])
             ], style={"margin-top":"15px"})
         ], width=4, className="custom-margin"),
@@ -98,7 +104,9 @@ layout = dbc.Container([
             ], className="radio-group"),
             html.Div([
                 dbc.Row([
-                    dcc.Graph(id="choropleth-map")
+                    dcc.Loading(id='choroplth_map_loading',
+                                type='circle',
+                                children=dcc.Graph(id="choropleth-map"))
                 ])
             ], style={"margin-top":"15px"})
         ], width=5, className="custom-margin"),
