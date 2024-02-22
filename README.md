@@ -65,7 +65,7 @@ pip install -r requirements.txt
 ```
 3. Download your mapbox token from https://www.mapbox.com/ and place in the `src/assets/` folder. 
 
-4. Make sure to comment out the lines loading the mapbox token from the environment variables on each of the python scripts `src/pages/`.
+4. Make sure to comment out the lines loading the mapbox token from the environment variables on each of the python scripts in `src/pages/`.
 
 ```
 #Set api token using environment variables
