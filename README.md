@@ -30,7 +30,7 @@
     * [Render](https://render.com/)
 
 ## Notebooks
-* [Dataset Collection](https://nbviewer.org/github/cpmalenab/the-big-one-ph/blob/master/notebooks/dataset_collection.ipynb) - contains the sources, data cleaning methodologies, and merging of datasets for in preparation for the data storytelling. Datasets include NCR population and barangay boundaries, hospital locations, seismicity, fault lines, and travel matrices.
+* [Dataset Collection](https://nbviewer.org/github/cpmalenab/the-big-one-ph/blob/master/notebooks/dataset_collection.ipynb) - contains the sources, data cleaning methodologies, and merging of datasets in preparation for the data storytelling. Datasets include NCR population and barangay boundaries, hospital locations, seismicity, fault lines, and travel matrices.
 * [Earthquake Impact](https://nbviewer.org/github/cpmalenab/the-big-one-ph/blob/master/notebooks/earthquake_impact.ipynb) - reports and visualizes the impact of The Big One (M7.2) in terms of building damages, casualties, and economic loss obtained from GMMA-Risk Analysis Project of PHIVOLCS and GeoAustralia.
 * [Liquefaction Potential](https://nbviewer.org/github/cpmalenab/the-big-one-ph/blob/master/notebooks/liquefaction_potential.ipynb) - visualizes possible areas of liquefaction in Metro Manila and highlighted transportation networks that are at risk of inaccessibility post-earthquake.
 * [Accessibility Scores](https://nbviewer.org/github/cpmalenab/the-big-one-ph/blob/master/notebooks/accessibility_scores.ipynb) - includes calculations based on the RAAM model from PySAL to determine accessibility scores of barangays with respect to travel time and distances from hospitals.
@@ -63,9 +63,9 @@ virtualenv venv
 ```
 pip install -r requirements.txt
 ```
-3. Download your mapbox token from https://www.mapbox.com/ and place in the assets folder. 
+3. Download your mapbox token from https://www.mapbox.com/ and place in the `src/assets/` folder. 
 
-4. Make sure to comment out the lines loading the mapbox token from the environment variables.
+4. Make sure to comment out the lines loading the mapbox token from the environment variables on each of the python scripts `src/pages/`.
 
 ```
 #Set api token using environment variables
@@ -74,7 +74,7 @@ pip install -r requirements.txt
 #token = mapbox_token
 ```
 
-and uncomment the lines loading the mapbox token from the `assets` folder.
+and uncomment the lines loading the mapbox token from the `src/assets/` folder.
 ```
 #Set api token using .mapbox_token in assets folder
 px.set_mapbox_access_token(open("assets/.mapbox_token").read())
