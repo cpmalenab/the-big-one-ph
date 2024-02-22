@@ -14,13 +14,12 @@ sidebar = dbc.Container([
 	]),
 	dbc.Row([
         dbc.Nav(
-	        [dbc.NavLink(page["name"], 
-                      active='exact', 
+	        [dbc.NavLink(page["name"],
+                      active='exact',
                       href=page["path"],
                       style={"color": "white"}) for page in dash.page_registry.values()],
-	        vertical=True, 
-            pills=True, 
-            class_name='my-nav')
+                      vertical=True,
+                      pills=True,
+                      class_name='my-nav')
     ])
 ], class_name = 'my-sidebar')
-
