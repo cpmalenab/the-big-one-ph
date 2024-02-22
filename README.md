@@ -92,14 +92,14 @@ You can run the app on your browser at http://127.0.0.1:8050
 
 ![seismicity.png](reports/seismicity.png)
 
-![population.png](reports/population.png)
+![population.png](reports/population.PNG)
 
-![impact.png](reports/impact.png)
+![impact.png](reports/impact.PNG)
 
-![liquefaction.png](reports/liquefaction.png)
+![liquefaction.png](reports/liquefaction.PNG)
 
-![transport.png](reports/transport.png)
+![transport.png](reports/transport.PNG)
 
-![healthcare.png](reports/healthcare.png)
+![healthcare.png](reports/healthcare.PNG)
 
-![accessibility.png](reports/accessibility.png)
+![accessibility.png](reports/accessibility.PNG)
