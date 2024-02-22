@@ -9,7 +9,7 @@
 * Conducted data wrangling on collected datasets such as population, healthcare system, and earthquake catalogs and geospatial data including fault lines, transport networks, and barangay boundaries.
 * Performed preprocessing of geospatial dataset to validate and transform data from KML (Key Markup Language) to GeoJson files using google earth and QuantumGIS.
 * Calculated accessibility scores using the Rational Agent Access Model (RAAM) of the PySAL library.
-* Visualized the datasets using an immersive and interactive data storytelling developed using Plotly-Dash.
+* Visualized the datasets using an immersive and interactive data storytelling application developed using Plotly-Dash.
 * Utilized HTML and CSS to develop an immersive data visualization and deployed the application on Render.
 
 ## Tools
